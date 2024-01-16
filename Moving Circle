@@ -1,0 +1,15 @@
+let circleY;
+
+function setup() {
+    createCanvas(200,200);
+
+    circleY=0;
+}
+
+function draw() {
+    background (0);
+
+    circle(100, circleY ,50);
+
+    circleY = circleY+1;
+}
